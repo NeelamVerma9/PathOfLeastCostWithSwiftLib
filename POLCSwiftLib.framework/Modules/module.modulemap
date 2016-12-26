@@ -1,0 +1,10 @@
+framework module POLCSwiftLib {
+  umbrella header "POLCSwiftLib.h"
+
+  export *
+  module * { export * }
+}
+
+module POLCSwiftLib.Swift {
+    header "POLCSwiftLib-Swift.h"
+}
